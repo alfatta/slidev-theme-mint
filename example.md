@@ -2,15 +2,9 @@
 theme: ./
 ---
 
-# Slidev Theme Starter
+# Presentation Title
 
-Presentation slides for developers
-
-<div class="pt-12">
-  <span @click="next" class="px-2 p-1 rounded cursor-pointer hover:bg-white hover:bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+Presentation subtitle
 
 ---
 
@@ -51,6 +45,35 @@ layout: image-right
 image: https://cover.sli.dev
 ---
 
+# Layout `image-right`
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consectetur porta velit, et ultricies lacus imperdiet vitae. Aenean posuere egestas nisl, at ullamcorper lorem facilisis ac.
+
+Nullam tincidunt diam eget arcu consequat euismod. Donec rutrum neque tellus, et elementum nunc accumsan ac. Nullam tincidunt neque quis tortor laoreet, a convallis arcu gravida. Sed quis mauris nec mi placerat fermentum in et nulla. 
+
+---
+layout: image-left
+image: https://cover.sli.dev
+---
+
+# Layout `image-left`
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consectetur porta velit, et ultricies lacus imperdiet vitae. Aenean posuere egestas nisl, at ullamcorper lorem facilisis ac.
+
+Nullam tincidunt diam eget arcu consequat euismod. Donec rutrum neque tellus, et elementum nunc accumsan ac. Nullam tincidunt neque quis tortor laoreet, a convallis arcu gravida. Sed quis mauris nec mi placerat fermentum in et nulla. 
+
+---
+layout: default-alt
+---
+
+# Layout `default-alt`
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque consectetur porta velit, et ultricies lacus imperdiet vitae. Aenean posuere egestas nisl, at ullamcorper lorem facilisis ac.
+
+Nullam tincidunt diam eget arcu consequat euismod. Donec rutrum neque tellus, et elementum nunc accumsan ac. Nullam tincidunt neque quis tortor laoreet, a convallis arcu gravida. Sed quis mauris nec mi placerat fermentum in et nulla. 
+
+---
+
 # Code
 
 Use code snippets and get the highlighting directly!
@@ -71,10 +94,28 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
-layout: center
-class: "text-center"
+
+# LaTeX
+
+## Time evolution of a quantum state
+
+The time evolution of a quantum state is described by the Schrödinger equation:
+
+$$
+{\displaystyle i\hbar {\frac {\partial }{\partial t}}\psi (t)=H\psi (t).}
+$$
+
+Here $𝐻$ denotes the [Hamiltonian](https://en.wikipedia.org/wiki/Hamiltonian_(quantum_mechanics)), the observable corresponding to the [total energy](https://en.wikipedia.org/wiki/Total_energy) of the system, and $ℏ$ is the reduced [Planck constant](https://en.wikipedia.org/wiki/Planck_constant). The constant 
+$𝑖ℏ$ is introduced so that the Hamiltonian is reduced to the [classical Hamiltonian](https://en.wikipedia.org/wiki/Hamiltonian_mechanics) in cases where the quantum system can be approximated by a classical system; the ability to make such an approximation in certain limits is called the [correspondence principle](https://en.wikipedia.org/wiki/Correspondence_principle).
+
+Source: Wikipedia [Quantum Mechanics](https://en.wikipedia.org/wiki/Quantum_mechanics#Time_evolution_of_a_quantum_state)
+
+---
+layout: end
 ---
 
-# Learn More
+# Thank You
+
+Learn more on
 
 [Documentation](https://sli.dev) / [GitHub Repo](https://github.com/slidevjs/slidev)

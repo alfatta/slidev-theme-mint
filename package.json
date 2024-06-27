@@ -1,6 +1,7 @@
 {
   "name": "slidev-theme-mint",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "author": "alfatta",
   "type": "module",
   "keywords": [
     "slidev-theme",
@@ -21,15 +22,24 @@
     "prism-theme-vars": "^0.2.5"
   },
   "devDependencies": {
-    "@slidev/cli": "^0.49.12"
+    "@slidev/cli": "^0.49.12",
+    "playwright-chromium": "^1.45.0"
   },
-  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfatta/slidev-theme-mint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alfatta/slidev-theme-mint/issues"
+  },
+  "homepage": "https://github.com/alfatta/slidev-theme-mint#readme",
   "slidev": {
     "colorSchema": "light",
     "highlighter": "all",
     "defaults": {
       "fonts": {
-        "sans": "Nunito Sans",
+        "sans": "IBM Plex Sans",
+        "weights": "200,300,400,500,600,700,800",
         "mono": "Fira Code"
       }
     }

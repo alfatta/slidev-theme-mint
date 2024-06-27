@@ -1,23 +1,9 @@
-# slidev-theme-mint
+# Slidev Theme Mint
 
-[![NPM version](https://img.shields.io/npm/v/slidev-theme-mint?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-mint)
+[![NPM version](https://img.shields.io/npm/v/slidev-theme-mint?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-mint) ![NPM Downloads](https://img.shields.io/npm/dm/slidev-theme-mint)
 
-A (...) theme for [Slidev](https://github.com/slidevjs/slidev).
 
-<!--
-  Learn more about how to write a theme:
-  https://sli.dev/themes/write-a-theme.html
---->
-
-<!--
-  run `npm run dev` to check out the slides for more details of how to start writing a theme
--->
-
-<!--
-  Put some screenshots here to demonstrate your theme
-
-  Live demo: [...]
--->
+A mint theme for [Slidev](https://github.com/slidevjs/slidev).
 
 ## Install
 
@@ -33,18 +19,119 @@ Learn more about [how to use a theme](https://sli.dev/themes/use).
 
 This theme provides the following layouts:
 
-> TODO:
+<table>
+  <tr>
+    <th width="50%">Screenshot</th>
+    <th width="50%">Description</th>
+  </tr>
+  <tr valign="top">
+    <td>
+      <img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/1.png" />
+    </td>
+    <td>
+      Layout : <code>cover</code><br/>
+      Options : <br/>
+      <ul>
+        <li>
+          <code>image</code> - optional<br>
+          default: https://cover.sli.dev
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td>
+      <img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/2.png" />
+    </td>
+    <td>
+      Layout : <code>default</code><br/>
+      Options : -
+    </td>
+  </tr>
+  <tr valign="top">
+    <td>
+      <img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/6.png" />
+    </td>
+    <td>
+      Layout : <code>default-alt</code><br/>
+      Options : -
+    </td>
+  </tr>
+  <tr valign="top">
+    <td>
+      <img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/4.png" />
+    </td>
+    <td>
+      Layout : <code>image-right</code><br/>
+      Options : <br/>
+      <ul>
+        <li>
+          <code>image</code> - optional<br>
+          default: https://cover.sli.dev
+        </li>
+        <li>
+          <code>imageClass</code> - optional<br>
+          default: -
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td>
+      <img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/5.png" />
+    </td>
+    <td>
+      Layout : <code>image-left</code><br/>
+      Options : <br/>
+      <ul>
+        <li>
+          <code>image</code> - optional<br>
+          default: https://cover.sli.dev
+        </li>
+        <li>
+          <code>imageClass</code> - optional<br>
+          default: -
+        </li>
+      </ul>
+    </td>
+  </tr>
+  <tr valign="top">
+    <td>
+      <img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/9.png" />
+    </td>
+    <td>
+      Layout : <code>end</code><br/>
+      Options : -
+    </td>
+  </tr>
+</table>
 
-## Components
+## Other Sample
 
-This theme provides the following components:
+Checkout other implementation from available layout
 
-> TODO:
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/1.png" /></td>
+    <td><img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/2.png" /></td>
+    <td><img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/3.png" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/4.png" /></td>
+    <td><img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/5.png" /></td>
+    <td><img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/6.png" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/7.png" /></td>
+    <td><img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/8.png" /></td>
+    <td><img src="https://raw.githubusercontent.com/alfatta/slidev-theme-mint/main/screenshot/9.png" /></td>
+  </tr>
+</table>
 
 ## Contributing
 
-- `npm install`
-- `npm run dev` to start theme preview of `example.md`
+- `pnpm install`
+- `pnpm run dev` to start theme preview of `example.md`
 - Edit the `example.md` and style to see the changes
-- `npm run export` to generate the preview PDF
-- `npm run screenshot` to generate the preview PNG
+- `pnpm run export` to generate the preview PDF
+- `pnpm run screenshot` to generate the preview PNG
